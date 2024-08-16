@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav>
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">daisyUI</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Item 1</a></li>
+          <li>
+            <details>
+              <summary>Parent</summary>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn">Button</a>
+      </div>
+    </div>
+    <!-- slider section  -->
+     <section>
+      <div class="carousel w-full">
+        <div id="item1" class="carousel-item w-full">
+          <img
+            src="/imges/Rectangle 1.png"
+            class="w-full" />
+        </div>
+        <div id="item2" class="carousel-item w-full">
+          <img
+            src="imges/Rectangle 1.png"
+            class="w-full" />
+        </div>
+        <div id="item3" class="carousel-item w-full">
+          <img
+            src="imges/Rectangle 1.png"
+            class="w-full" />
+        </div>
+        <div id="item4" class="carousel-item w-full">
+          <img
+            src="imges/Rectangle 1.png"
+            class="w-full" />
+        </div>
+      </div>
+      <div class="flex w-full justify-center gap-2 py-2">
+        <a href="#item1" class="btn btn-xs">1</a>
+        <a href="#item2" class="btn btn-xs">2</a>
+        <a href="#item3" class="btn btn-xs">3</a>
+        <a href="#item4" class="btn btn-xs">4</a>
+      </div>
+     </section>
+  </nav>
+  <main>
+    <section>
+      <div class="text-center my-16">
+        <h1 class="text-2xl text-[#D99904] py-2">---From 11:00am to 10:00pm---</h1>
+        <h1 class="text-3xl font-bold border-y-4 inline-block py-4">ORDER ONLINE</h1>
+      </div>
+    </section>
+    <section>
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-20 gap-4">
+        <div>
+          <img src="imges/bg 1.png" alt="">
+          <p class="text-center mt-[-50px] font-bold text-2xl text-white">SALADS</p>
+        </div>
+        <div>
+          <img src="imges/bg 2.png" alt="">
+          <p class="text-center mt-[-50px] font-bold text-2xl text-white">SOUPS</p>
+        </div>
+        <div>
+          <img src="imges/bg 3.png" alt="">
+          <p class="text-center mt-[-50px] font-bold text-2xl text-white">PIZZAS</p>
+        </div>
+        <div>
+          <img src="imges/bg 4.png" alt="">
+          <p class="text-center mt-[-50px] font-bold text-2xl text-white">DESSERTS</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+  class="hero min-h-screen"
+  style="background-image: url(imges/Rectangle\ 9.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="bg-white text-black w-[1096px] py-16 px-8">
+      <h1 class="mb-5 text-5xl font-bold">Bistro Boss</h1>
+      <p class="mb-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, libero accusamus laborum deserunt ratione dolor officiis praesentium! Deserunt magni aperiam dolor eius dolore at, nihil iusto ducimus incidunt quibusdam nemo.
+      </p>
+    </div>
+  </div>
+</div>
+    </section>
+  </main>
+
+  
+</body>
+</html>
